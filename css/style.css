@@ -1,6 +1,6 @@
 body{
   font-family: 'Arvo', serif;
-  background-image:url(img/fond.jpg);
+
 }
 
 header{
@@ -18,3 +18,52 @@ ul{
 
 #epaule, #main, #poignet, #bassin, #genou, #cheville
 {display: none;}
+
+#image{
+  background-image: url("../images/corps.png");
+  width: 135px;
+  height: 500px;
+}
+
+/*création des cercles*/
+ .circle1, .circle2, .circle3, .circle4, .circle5, .circle6
+ {
+    width: 40px;
+    height: 40px;
+     background: black;
+     -moz-border-radius: 40px;
+     -webkit-border-radius: 40px;
+   border-radius: 50px;
+   position: relative;
+   opacity: 0.6
+ }
+
+ /*positionnement des cercles*/
+
+ .circle1{
+   margin-top: 90px;
+ }
+
+.circle2 {
+	margin-top: 50px;
+	margin-left: 105px;
+}
+
+.circle3{
+  margin-top: 5px;
+}
+
+.circle4 {
+	margin-left: 85px;
+	margin-top: -25px;
+}
+
+.circle5 {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.circle6 {
+  margin-top: 60px;
+  margin-left: 70px;
+}
